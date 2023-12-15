@@ -1,0 +1,24 @@
+.list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.navlink {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.navlink:hover {
+    color: rgb(193,17,25);
+}
+
+.navlink:active {
+    color: rgb(153,22,29);
+}

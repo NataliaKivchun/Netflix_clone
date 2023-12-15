@@ -1,0 +1,17 @@
+.active {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+  }
+  
+  .active:hover {
+    background-color: rgb(193,17,25);
+    color: white;
+    border: none;
+  }
+  
+  .active:active {
+    background-color: rgb(153,22,29);
+    color: white;
+    border: none;
+  }

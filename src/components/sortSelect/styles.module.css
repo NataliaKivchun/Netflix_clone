@@ -1,0 +1,28 @@
+.select {
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 300px;
+    background: #333;
+    font-size: 16px;
+    outline-width: 1px;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='0 7 12 18 24 7'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+
+.select:focus > .option:checked {
+    color: rgb(229, 9, 20) !important;
+}
+
+.option {
+    margin: 4px 0;
+    width: fit-content;
+}

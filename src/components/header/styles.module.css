@@ -1,0 +1,50 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 999;
+}
+
+.app_name {
+    height: 40px;
+    width: 110px;
+    background-image: url(./../../assets/icons/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid rgb(229, 9, 20);
+    background-color: rgb(229, 9, 20);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    margin-left: auto;
+}
+
+.button:hover {
+    background-color: rgb(193,17,25);
+    border-color: rgb(193,17,25);
+}
+
+.button:active{
+    background-color: rgb(153,22,29);
+    border-color: rgb(153,22,29);
+}
+

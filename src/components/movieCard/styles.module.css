@@ -1,0 +1,46 @@
+.card {
+    background-color: #333;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-top: auto;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.name:hover {
+    color: rgb(193,17,25);
+}
+
+.name:active {
+    color: rgb(153,22,29);
+}
+
+.adult {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+    width: 30px;
+    background-color: rgba(153, 22, 29, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 10px;
+}
