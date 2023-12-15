@@ -1,0 +1,112 @@
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./../../assets/images/banner.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: multiply;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.form {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    min-width: 300px;
+    width: 450px;
+}
+
+.fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.legend {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.label_span {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+.input {
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 60px;
+    padding: 24px 20px 16px;
+    width: 100%;
+    background: #333;
+    font-size: 16px;
+    outline-width: 1px;
+}
+
+.form_error {
+    font-size: 14px;
+}
+
+.is_show {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    outline-width: 1px;
+    font-size: 14px;
+    width: fit-content;
+    padding: 8px;
+    font-weight: 400;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.form_button {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 24px;
+    border: 1px solid rgb(229, 9, 20);
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+    color: white;
+}
+
+.form_button:hover {
+    background-color: rgb(193,17,25);
+    border-color: rgb(193,17,25);
+}
+
+.form_button:active {
+    background-color: rgb(153,22,29);
+    border-color: rgb(153,22,29);
+}
